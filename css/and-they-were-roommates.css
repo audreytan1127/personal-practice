@@ -1,0 +1,29 @@
+:root {
+    --main: #ffccdb;
+    --primary: #939cfa;
+    --secondary: #ffcc2b;
+    --tertiary: #5fad63;
+    --quarternary: #ffa881;
+}
+.navbar {
+    background-color: var(--main);
+}
+.navbar-brand {
+    color: var(--tertiary);
+}
+.nav-link {
+    color: var(--primary);
+}
+.dropdown-menu {
+    background-color: var(--main);
+}
+li.nav-item:active {
+    color: var(--tertiary);
+}
+.dropdown-item{
+   color: var(--primary);
+}
+.dropdown-item:hover {
+    color: var(--tertiary);
+    background-color: var(--quarternary);
+}
