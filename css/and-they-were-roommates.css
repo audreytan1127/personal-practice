@@ -1,29 +1,20 @@
 :root {
     --main: #ffccdb;
     --primary: #939cfa;
-    --secondary: #ffcc2b;
+    --secondary: #9a012b;
     --tertiary: #5fad63;
-    --quarternary: #ffa881;
+    --quarternary: #fdd24c;
 }
-.navbar {
-    background-color: var(--main);
+
+body {
+background-color: var(--main);
 }
-.navbar-brand {
-    color: var(--tertiary);
+.navigation {
+    background-color: var(--secondary);
 }
-.nav-link {
+div.nav {
     color: var(--primary);
 }
-.dropdown-menu {
-    background-color: var(--main);
-}
-li.nav-item:active {
-    color: var(--tertiary);
-}
-.dropdown-item{
-   color: var(--primary);
-}
-.dropdown-item:hover {
-    color: var(--tertiary);
-    background-color: var(--quarternary);
+li.nav-links {
+    list-style-type: none;
 }
