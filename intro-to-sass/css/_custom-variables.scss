@@ -1,0 +1,8 @@
+
+//Would put these import statements at the top of the stylesheet.css file
+
+@import 'custom-variables';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+//This is the file you would use to customize bootstrap classes
+//Can look through bootstrap sass docs about color, or border, etc.
